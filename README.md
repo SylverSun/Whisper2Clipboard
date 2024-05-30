@@ -3,7 +3,7 @@ A short Python script that talks to OpenAI's Whisper voice model to transcribe s
 
 You'll need:
 * A basic understanding of how to use a shell environment.
-* An Nvidia Graphics card with at least 2gb VRAM and some CUDA cores (you can use AMD GPUs or your CPU but you'll have to futz with the script and it may be slower than you expect.
+* An Nvidia Graphics card with at least 2gb VRAM and some CUDA cores (you can use AMD GPUs or your CPU but you'll have to futz with the script and it may be slower than you expect.)
 * Python 3.10.11
 * NVIDIA CUDA Runtime 11.8 (Latter versions play silly buggers)
 * Pytorch for CUDA 11.8 (cu118? idk I'm just a script kiddie)
@@ -49,6 +49,7 @@ pip install git+https://github.com/openai/whisper.git
 * If you don't like the 'I've finished transcribing' sound, delete line 119
 * Listen and Post Keybindings are lines 25 and 26
 * If you want Whisper to translate your spoken words to a different language, line 37 is your jam.
+* Want to change or remove the T binding for posting to SS13? Delete or change lines 68 and 69
 
 ## Disclaimer
 This software is provided as is. I'll do my best to keep this readme up to date, but I'm an amateur at best so please manage your expectations.
