@@ -10,7 +10,7 @@ You'll need:
 
 ## Installation
 1. Download and Install Python 3.10.11.  
-  By default, Python installs to C:\Users\%USERNAME%\AppData\Programs\Python\Python310
+  By default, Python installs to `C:\Users\%USERNAME%\AppData\Programs\Python\Python310\`
 2. Install NVIDIA CUDA Runtime 11.8
 3. Install Pytorch for CUDA 11.8. You can usually install it using the following command in a shell prompt of your choice:
 ```bash
