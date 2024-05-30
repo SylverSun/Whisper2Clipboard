@@ -13,7 +13,55 @@ Pytorch for CUDA 11.8 (cu118? idk I'm just a script kiddie)
 
 2: Install NVIDIA CUDA Runtime 11.8
 
-3: Install Pytorch for CUDA 11.8. You can usually install it using the following command:
+3: Install Pytorch for CUDA 11.8. You can usually install it using the following command in a shell prompt of your choice:
 ```bash
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 ```
+
+4: Install FFMPEG and ensure the directory that contains the FFMPEG is added to the PATH Environment Variable.
+  Java's guide to doing this is here: https://www.java.com/en/download/help/path.html
+  Ensure you are ADDING to the PATH variable, not overwriting it. 
+  **If you overwrite it you'll break your shit and it won't be my fault.**
+
+5: Install OpenAI's Whisper model:
+```bash
+pip install git+https://github.com/openai/whisper.git
+```
+
+6: Install the script dependancies with the following commands typed into a shell prompt:
+  ```bash
+  pip install pyaudio
+  pip install blobfile
+  pip install pynput
+  pip install pywin32
+  ```
+
+7: Create a folder in your C:\users\%username%\Documents folder called **W2C**
+
+8: Drop W2C.py and button.wav in this folder
+
+## How to run W2C:
+1: Open a shell prompt of your choice.
+  Personally, I use Powershell 7.
+
+2: cd to your W2C folder in your Documents folder
+
+3: Run the following command (or whatever flavor of python execution your computer is happy running)
+  ```bash
+  python W2C.py
+  ```
+
+## Changing the behaviour of W2C
+
+## Disclaimer
+This software is provided as is. I'll do my best to keep this readme up to date, but I'm an amateur at best so please manage your expectations.
+
+## Credits
+A large portion of this script was flat out stolen from the following stack overflow page:
+https://stackoverflow.com/questions/44894796/pyaudio-and-pynput-recording-while-a-key-is-being-pressed-held-down
+The user that made the post is: Ron Norris
+https://stackoverflow.com/users/8093469/ron-norris
+
+A big thanks to Ron, you don't know this but your post from 7 years ago taught me a lot about python and I'm very grateful. 
+
+Also OpenAI, for making such a great model. I hope that this script does right by you and that the licensing is all OK.
