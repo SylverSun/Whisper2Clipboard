@@ -1,5 +1,5 @@
 # Whisper2Clipboard
-A short Python script that talks to OpenAI's Whisper voice model to transcribe spoken words to text, then presents in the information for easy posting in Space Station 13.
+A short Python script that talks to OpenAI's Whisper voice model to transcribe spoken words to text, then presents the information for easy posting in Space Station 13.
 
 You'll need:
 * A basic understanding of how to use a shell environment.
