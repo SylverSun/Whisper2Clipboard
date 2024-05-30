@@ -17,7 +17,7 @@ You'll need:
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 ```
 4. Install FFMPEG and ensure the directory that contains the FFMPEG is added to the PATH Environment Variable.  
-  Java's guide to doing this is here: https://www.java.com/en/download/help/path.html  
+  Java's guide to doing this is located [here](https://www.java.com/en/download/help/path.html)  
   Ensure you are ADDING to the PATH variable, not overwriting it.   
 6. Install OpenAI's Whisper model:
 ```bash
